@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Firmcard</string>
+    <string name="whatis">What is LightTravel?</string>
+    <string name="about">We are the first and currently the only firm, that took the courage to take
+    the travel to the next level, over the boundaries of the known World, above the sky and even
+    further than that: to the stars. Be among the firsts to explore places, no one\'s ever been before.</string>
+    <string name="motto">Tired of Earth? Try the Universe. Don\'t get stuck. Dare to dream.</string>
+    <string name="ticket">Buy your ticket now!</string>
+    <string name="action">Only today!</string>
+    <string name="address">777 Jupiter Lane, Earth, WS 86541</string>
+    <string name="phone">111-5489-772</string>
+    <string name="email">letstravel@universewaits.ea</string>
+</resources>

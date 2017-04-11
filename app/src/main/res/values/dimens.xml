@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainpadding">5dp</dimen>
+    <dimen name="logotextsize">20sp</dimen>
+    <dimen name="defmargin">10dp</dimen>
+    <dimen name="drawablepadding">15dp</dimen>
+</resources>

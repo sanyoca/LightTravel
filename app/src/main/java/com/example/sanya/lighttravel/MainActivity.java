@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // start the phone call intent if that view is pressed
-        findViewById(R.id.phonecall).setOnClickListener(new View.OnClickListener()  {
+        findViewById(R.id.phonecall).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
@@ -27,16 +27,17 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // start the maps intent if that view is pressed
-        findViewById(R.id.geoloc).setOnClickListener(new View.OnClickListener()  {
+        findViewById(R.id.geoloc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String uri = String.format(Locale.ENGLISH, "geo:%f,%f", 47.523988, 19.038137);
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
-                startActivity(intent);            }
+                startActivity(intent);
+            }
         });
 
         // start the emailing intent if that view is pressed
-        findViewById(R.id.email).setOnClickListener(new View.OnClickListener()  {
+        findViewById(R.id.email).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SEND);

@@ -28,9 +28,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:padding="@dimen/mainpadding"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_height="wrap_content">
+                android:padding="@dimen/mainpadding">
 
                 <TextView
                     style="@style/whatistextview"
@@ -44,22 +44,22 @@
                 <View style="@style/hline" />
 
                 <TextView
-                    style="@style/datalines"
                     android:id="@+id/geoloc"
+                    style="@style/datalines"
                     android:clickable="true"
                     android:drawableLeft="@drawable/ic_my_location_white_48dp"
                     android:text="@string/address" />
 
                 <TextView
-                    style="@style/datalines"
                     android:id="@+id/phonecall"
-                    android:drawableLeft="@drawable/ic_call_white_48dp"
+                    style="@style/datalines"
                     android:clickable="true"
+                    android:drawableLeft="@drawable/ic_call_white_48dp"
                     android:text="@string/phone" />
 
                 <TextView
-                    style="@style/datalines"
                     android:id="@+id/email"
+                    style="@style/datalines"
                     android:clickable="true"
                     android:drawableLeft="@drawable/ic_email_white_48dp"
                     android:text="@string/email" />

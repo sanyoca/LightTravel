@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // start the phone call intent if that view is pressed
         findViewById(R.id.phonecall).setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // start the maps intent if that view is pressed
         findViewById(R.id.geoloc).setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);            }
         });
 
+        // start the emailing intent if that view is pressed
         findViewById(R.id.email).setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {

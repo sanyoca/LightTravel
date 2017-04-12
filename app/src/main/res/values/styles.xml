@@ -36,7 +36,7 @@
 
     <style name="hline">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">@dimen/onedpheight</item>
         <item name="android:background">@android:color/white</item>
         <item name="android:layout_marginTop">@dimen/defmargin</item>
         <item name="android:layout_marginBottom">@dimen/defmargin</item>

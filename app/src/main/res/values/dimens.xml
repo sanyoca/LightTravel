@@ -4,4 +4,5 @@
     <dimen name="logotextsize">20sp</dimen>
     <dimen name="defmargin">10dp</dimen>
     <dimen name="drawablepadding">15dp</dimen>
+    <dimen name="onedpheight">1dp</dimen>
 </resources>
